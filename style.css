@@ -18,19 +18,6 @@ section {
   margin: auto;
 }
 
-button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 10px;
-  cursor: pointer;
-  display: block;
-  margin: 20px auto;
-  font-size: 16px;
-  border-radius: 4px;
-}
-
-
 footer {
   background-color: #222;
   color: white;
@@ -62,4 +49,41 @@ footer {
 .conteudo-toggle {
   padding: 10px 20px;
   display: none;
+}
+
+.conteudo-toggle a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.conteudo-toggle a:hover {
+  text-decoration: underline;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.badges img {
+  height: 40px;
+}
+
+.icones-sociais {
+  display: flex;
+  gap: 20px;
+  font-size: 28px;
+  padding: 10px 0;
+}
+
+.icones-sociais a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.icones-sociais a:hover {
+  color: #4CAF50;
 }
